@@ -6,11 +6,19 @@ int addNumbers(int num1, int num2){
     return num1 + num2 ;                
 }
 
+//void function do not return any value
+void printHelloworld()
+{
+    std::cout << "Hello World!\n";
+}
+
 //special function from where the execution starts with
 int main(){                            
 
     int num1 {10};                      
     int num2 {20};
+
+    printHelloworld();
 
     std::cout << "First Num: " << num1 << std::endl;
     std::cout << "Second Num: " << num2 << std::endl;
